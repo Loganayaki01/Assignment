@@ -122,7 +122,7 @@ export const App = ({data}) => {
               <table>
                 <th>Branch</th>
                 <tr>
-                  <Dropdown options={[data.branches]}/>
+                  <Dropdown />
                 </tr>
               </table>
               <table>
